@@ -1,4 +1,4 @@
-.#include <iostream>
+#include <iostream>
 #include <iomanip>
 #include<string>
 using namespace std;
@@ -19,9 +19,9 @@ int main() {
 		}
 		else other++;
 	}
-	cout << "×ÖÄ¸ÊýÁ¿£º" << alphabet << endl;
-	cout << "¿Õ¸ñÊýÁ¿£º" << space << endl;
-	cout << "Êý×ÖÊýÁ¿£º" << num << endl;
-	cout << "ÆäËû×Ö·ûÊýÁ¿£º" << other << endl;
+	cout << "å­—æ¯æ•°é‡ï¼š" << alphabet << endl;
+	cout << "ç©ºæ ¼æ•°é‡ï¼š" << space << endl;
+	cout << "æ•°å­—æ•°é‡ï¼š" << num << endl;
+	cout << "å…¶ä»–å­—ç¬¦æ•°é‡ï¼š" << other << endl;
 	return 0;
 }
